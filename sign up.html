@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- bootstrap link -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css link -->
+     <link rel="stylesheet" href="css/main.css">
+    <!-- sweet alert 2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="container vh-100 d-flex justify-content-center align-items-start">
+        <div class = "content-box p-5 text-center d-flex flex-column gap-3 w-75 my-5">
+            <h1 class="fw-medium text-info">Smart Login System</h1>
+            <h2 class = "text-warning">Sign up</h2>
+            <input id = 'userName' class = 'form-control bg-transparent shadow-none py-2' placeholder="Enter your name" type="text">
+            <input id = 'userEmail' class = 'form-control bg-transparent shadow-none py-2' placeholder="Enter your email" type="email">
+            <input id = 'userPassword' class = 'form-control bg-transparent shadow-none py-2' placeholder="Enter your password" type="password">
+            <button id = 'signUpBtn' class="btn btn-outline-primary">Sign up</button>
+            <span class="text-white">Already have an account? <a class="text-white" href="index.html">Sign in</a></span>
+        </div>
+    </div>
+
+    <!-- sweet alert 2 js-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+    <!-- main js file -->
+    <script src="js/index.js"></script>
+</body>
+</html>

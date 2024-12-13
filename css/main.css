@@ -1,0 +1,20 @@
+body{
+    background-color: #24353F;
+}
+
+.content-box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input{
+    color: #fff !important;
+}
+
+input::placeholder{
+    color: rgb(171, 167, 167) !important;
+}
+
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
